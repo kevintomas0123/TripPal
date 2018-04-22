@@ -1,0 +1,234 @@
+body {
+  padding-bottom: 3rem;
+  background-image: url('../images/topography.png');
+}
+.navbar-brand{
+  color:white; 
+  font-size: 30px;
+  font-family: 'Lobster';
+  filter: brightness(200%);
+}
+.nav-item{
+   padding:0px 30px 0px 30px;
+   position: relative;
+   left:80px;
+   font-size: 20px;
+   font-family: 'Fjalla One', sans-serif;
+   color:white; 
+   filter: brightness(200%);
+ 
+}
+.carousel-caption {
+  z-index: 10;
+  bottom: 10rem;
+}
+.carousel-item {
+  height: 35rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 35rem;
+  filter:brightness(75%);
+  
+}
+.headlineFont{
+  font-family: 'Lobster';
+  filter: brightness(130%);
+  font-size: 60px;
+}
+.headlineFont1{
+  font-family: 'Lobster';
+  filter: brightness(130%);
+  font-size: 100px;
+  position: relative;
+  left:270px;
+  
+}
+.headlineP{
+  font-family: 'Fjalla One', sans-serif;
+  filter: brightness(130%);
+  font-size: 25px;
+}
+.headlineP1{
+  font-family: 'Fjalla One', sans-serif;
+  filter: brightness(130%);
+  font-size: 50px;
+  position: relative;
+  left:150px;
+}
+.my-4{
+font-family: 'Fjalla One', sans-serif;
+color: turquoise;
+}
+.card-title{
+font-family: 'Asap', sans-serif;
+color: turquoise;
+font-size: 30px;
+}
+button.btn.btn-secondary:first-child{
+color: white;
+background-color:turquoise;
+}
+.markZ{
+position: absolute;
+right:0px;
+font-family: 'Fjalla One', sans-serif;
+  filter: brightness(150%);
+  font-size: 25px;
+}
+.backgroundImage{
+position: fixed;
+left: 0;
+right: 0;
+z-index: -1;
+display: block;
+background-image: url('../images/japan.jpg');
+width: 100%;
+height:100%;
+filter: brightness(70%);
+}
+h1{
+font-family: 'Fjalla One', sans-serif;
+color: white;
+}
+p{
+font-family: 'Kalam', cursive;
+}
+.pabout{
+font-family: 'Fjalla One', sans-serif;
+color: white;
+font-size: 20px;
+}
+a {
+color: turquoise;
+
+}
+
+.loginBody {
+  color: #999;
+  background-image: url(../images/loginbackground.jpg);
+  background-size: 100%;
+  
+  font-family: 'Roboto', sans-serif;
+}
+form {
+  border-color: #e1e1e1;
+      border-radius: 0;
+      background-color: #f3f3f3;
+     width:400px;
+      margin-left: auto;
+      margin-right: auto;
+  
+}
+.signup-form {
+  margin: 20%;
+  padding: 30px 0;
+}
+.signup-form h2 {
+  color: #636363;
+      margin: 0 0 15px;
+  text-align: center;
+  }
+  .signup-form .lead {
+      font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+  .signup-form form {		
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+  }
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+.signup-form label {
+  font-weight: normal;
+  font-size: 13px;
+}
+.signup-form .form-control {
+  min-height: 38px;
+  box-shadow: none !important;
+  border-width: 0 0 1px 0;
+}	
+.signup-form .input-group-addon {
+  max-width: 42px;
+  text-align: center;
+  background: none;
+  border-width: 0 0 1px 0;
+  padding-left: 5px;
+}
+  .signup-form .btn {        
+      font-size: 16px;
+      font-weight: bold;
+  background: #19aa8d;
+      border-radius: 3px;
+  border: none;
+  min-width: 140px;
+      outline: none !important;
+  }
+.signup-form .btn:hover, .signup-form .btn:focus {
+  background: #179b81;
+}
+.signup-form a {
+  color: #19aa8d;
+  text-decoration: none;
+}	
+.signup-form a:hover {
+  text-decoration: underline;
+}
+.signup-form .fa {
+  font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+  font-size: 17px;
+}
+.signup-form .fa-check {
+  color: #fff;
+  left: 9px;
+  top: 18px;
+  font-size: 7px;
+  position: absolute;
+}
+
+
+#trending_city2{
+  visibility: hidden;
+}
+.compareButton{
+  width:100%;
+}
+
+.progress{
+  height: 3rem;
+}
+
+.invalid{
+  visibility: hidden;
+  color: red;
+  font-size: 17px;
+}
+
+.img-about{
+ height:50%;
+}
+
+.logo{
+  height:80%;
+  width:90%;
+  margin:0;
+  padding:0;
+}
+
+.positionH{
+  font-size: 25px;
+  margin:0;
+  padding:0;
+}

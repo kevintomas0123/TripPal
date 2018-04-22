@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/Trip-Pal/Trip-Pal-Website/master/assets/images/loginbackground.jpg");
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px;
+}
+
+.space1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.navbar-brand {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.panel-body {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    color:white; 
+}
